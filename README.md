@@ -3,25 +3,12 @@
 ## Projektbeschreibung
 Dieses Projekt fokussiert sich auf die Erhebung von Daten, die relevant sein können, um den Zusammenhang zwischen Fachkräftemangel und Frühverrentung in Deutschland zu analysieren. Ziel war es, geeignete Datenquellen zu finden, zusammenzuführen und eine Datenbasis für weitere ökonometrische Auswertungen zu schaffen. Dieser Prozess erforderte die Erarbeitung einer Webscrapingstrategie, da die benötigten Arbeitsmarktdaten zwar öffentlich zugänglich auf der Webseite der Bundesagentur für Arbeit erhältlich sind, aber nicht in einer csv oder xlxs Datei zusammengefügt sondern in unterschiedlichen Dateien und teilweise im PDF-Format.
 
-## 📁 Struktur des Reposatory's
+## Datenquellen
+- [1.	Gemeldete Arbeitsstellen nach Berufen (Engpassanalysen) – Länder (Monatszahlen)](https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?topic_f=analyse-gemeldete-arbeitsstellen-kldb2010 )
+- [2.	Bewerber und Berufsausbildungsstellen – Deutschland, West/Ost, Länder, Kreise, Regionaldirektionen und Agenturen mit Geschäftsstellen (Monatszahlen)]([https://www-genesis.destatis.de/](https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=1459818&topic_f=ausb-ausbildungsstellenmarkt-mit-zkt))
+- [3.	Arbeitsmarkt nach Berufen (KldB 2010) – Deutschland, West/Ost und Länder (Monatszahlen)](https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?r_f=bl_Baden-Wuerttemberg&topic_f=berufe-heft-kldb2010)
 
+Die Daten wurden mit Python automatisiert verarbeitet.
 
-## 🔗 Datenquellen
-- [Bundesagentur für Arbeit – Engpassanalyse](https://statistik.arbeitsagentur.de/)
-- [Destatis – Rentenzugang nach Altersgruppen](https://www-genesis.destatis.de/)
-- [OECD – Erwerbsquoten nach Alter](https://data.oecd.org/)
+## Verwendeter Code
 
-Die meisten Daten wurden manuell heruntergeladen. Einige wurden mit Python automatisiert verarbeitet.
-
-## 🐍 Verwendeter Code
-- `scripts/combine_vacancy_data.py`: Kombiniert PDF-Tabellen der Engpassanalyse
-- `scripts/clean_rentendaten.py`: Bereinigt Rentenzugänge nach Bundesland und Altersgruppe
-- `scripts/merge_all.py`: Führt alles in eine Master-Datei zusammen
-
-## 📈 Nächste Schritte
-- Zeitreihenanalyse auf regionaler Ebene
-- Ökonometrisches Modell (z.B. Paneldatenregression)
-- Visualisierung mit Plotly / Seaborn
-
-## 📄 Lizenz
-Dieses Projekt dient nur Forschungszwecken. Die verwendeten Daten unterliegen den Lizenzbedingungen der jeweiligen Anbieter.
