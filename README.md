@@ -22,6 +22,6 @@ Die Daten wurden mit Python automatisiert verarbeitet.
 
 ## Datenzugang
 
-[Klicke hier um auf Alle Daten zu zugreifen]([https://1drv.ms/u/s!Aexample123?e=abcDEF](https://diwberlinev-my.sharepoint.com/:f:/g/personal/agehlen_diw_de/EjiY0sbxQNpHvfjI1RQsI2MBAhb35hG97wpXhIdKL4bIkg?e=MwHQ9y))
+[Klicke hier um auf Alle Daten zu zugreifen](https://1drv.ms/u/s!Aexample123?e=abcDEF](https://diwberlinev-my.sharepoint.com/:f:/g/personal/agehlen_diw_de/EjiY0sbxQNpHvfjI1RQsI2MBAhb35hG97wpXhIdKL4bIkg?e=MwHQ9y)
 
 
