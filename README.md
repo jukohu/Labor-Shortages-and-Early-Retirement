@@ -19,3 +19,9 @@ Die Daten wurden mit Python automatisiert verarbeitet.
 | [C2_Rentendaten](Jupyter_Notebooks/C2_Rentendaten.ipynb) | Bereinigt Rentenzugangsdaten. |
 | [D Merging and Consolidating Data](Jupyter_Notebooks/D_Merging%20and%20Consolidating%20Data%20into%20one%20Data%20Frame%20%28%2B%20standardizing%20it%20by%20indexing%29.ipynb) | Datenzusammenführung und Standardisierung. |
 | [E_Analysis of Merged Data](Jupyter_Notebooks/E_Analysis%20of%20Merged%20Data.ipynb) | Explorative Analyse und Visualisierung. |
+
+## Datenzugang
+
+[Klicke hier um auf Alle Daten zu zugreifen]([https://1drv.ms/u/s!Aexample123?e=abcDEF](https://diwberlinev-my.sharepoint.com/:f:/g/personal/agehlen_diw_de/EjiY0sbxQNpHvfjI1RQsI2MBAhb35hG97wpXhIdKL4bIkg?e=MwHQ9y))
+
+
